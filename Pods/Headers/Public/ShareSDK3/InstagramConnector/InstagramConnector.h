@@ -1,0 +1,1 @@
+../../../../ShareSDK3/ShareSDK/Support/PlatformConnector/InstagramConnector.framework/Headers/InstagramConnector.h

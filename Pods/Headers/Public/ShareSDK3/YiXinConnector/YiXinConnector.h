@@ -1,0 +1,1 @@
+../../../../ShareSDK3/ShareSDK/Support/PlatformConnector/YiXinConnector.framework/Headers/YiXinConnector.h

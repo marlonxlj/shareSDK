@@ -1,0 +1,67 @@
+PODS:
+  - MOBFoundation (2.2.3)
+  - ShareSDK3 (3.5.2):
+    - ShareSDK3/ShareSDK (= 3.5.2)
+  - ShareSDK3/PlatformConnector/AliPaySocial (3.5.2)
+  - ShareSDK3/PlatformConnector/QQ (3.5.2)
+  - ShareSDK3/PlatformConnector/RenRen (3.5.2)
+  - ShareSDK3/PlatformConnector/SinaWeibo (3.5.2)
+  - ShareSDK3/PlatformConnector/WeChat (3.5.2)
+  - ShareSDK3/ShareSDK (3.5.2)
+  - ShareSDK3/ShareSDKConfigurationFile (3.5.2)
+  - ShareSDK3/ShareSDKExtension (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/AliPaySocial (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/Copy (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/Evernote (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/Facebook (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/GooglePlus (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/Instagram (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/Instapaper (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/Kakao (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/Line (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/Mail (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/QQ (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/RenRen (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/SMS (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/WeChat (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/WhatsApp (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/Yixin (3.5.2)
+  - ShareSDK3/ShareSDKUI (3.5.2)
+
+DEPENDENCIES:
+  - MOBFoundation
+  - ShareSDK3 (~> 3.5.0)
+  - ShareSDK3/PlatformConnector/AliPaySocial
+  - ShareSDK3/PlatformConnector/QQ
+  - ShareSDK3/PlatformConnector/RenRen
+  - ShareSDK3/PlatformConnector/SinaWeibo
+  - ShareSDK3/PlatformConnector/WeChat
+  - ShareSDK3/ShareSDKConfigurationFile
+  - ShareSDK3/ShareSDKExtension
+  - ShareSDK3/ShareSDKPlatforms/AliPaySocial
+  - ShareSDK3/ShareSDKPlatforms/Copy
+  - ShareSDK3/ShareSDKPlatforms/Evernote
+  - ShareSDK3/ShareSDKPlatforms/Facebook
+  - ShareSDK3/ShareSDKPlatforms/GooglePlus
+  - ShareSDK3/ShareSDKPlatforms/Instagram
+  - ShareSDK3/ShareSDKPlatforms/Instapaper
+  - ShareSDK3/ShareSDKPlatforms/Kakao
+  - ShareSDK3/ShareSDKPlatforms/Line
+  - ShareSDK3/ShareSDKPlatforms/Mail
+  - ShareSDK3/ShareSDKPlatforms/QQ
+  - ShareSDK3/ShareSDKPlatforms/RenRen
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo
+  - ShareSDK3/ShareSDKPlatforms/SMS
+  - ShareSDK3/ShareSDKPlatforms/WeChat
+  - ShareSDK3/ShareSDKPlatforms/WhatsApp
+  - ShareSDK3/ShareSDKPlatforms/Yixin
+  - ShareSDK3/ShareSDKUI
+
+SPEC CHECKSUMS:
+  MOBFoundation: 2bc5cd7011a2db75cf2b3ceacb7f4227eec88f3e
+  ShareSDK3: 08ed714e2bbdcd97ab60f58cb398227341dfc20a
+
+PODFILE CHECKSUM: 5b0c580e43880078428f2f18f6a62964624993ed
+
+COCOAPODS: 1.2.0.beta.1

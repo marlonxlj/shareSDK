@@ -1,0 +1,1 @@
+../../../../ShareSDK3/ShareSDK/Support/PlatformConnector/KakaoConnector.framework/Headers/KakaoConnector.h

@@ -1,0 +1,1 @@
+../../../../ShareSDK3/ShareSDK/Support/PlatformConnector/GooglePlusConnector.framework/Headers/SSDKGooglePlusControllerStyle.h
