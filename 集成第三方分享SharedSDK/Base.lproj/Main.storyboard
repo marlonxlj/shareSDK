@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyE-zf-sce">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyE-zf-sce">
                                 <rect key="frame" x="277" y="285" width="46" height="30"/>
                                 <state key="normal" title="分享">
                                     <color key="titleColor" red="1" green="0.29378660484528296" blue="0.14175273788056353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -26,10 +26,19 @@
                                     <action selector="startShared:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dPw-kg-sat"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qMX-CM-Gg3">
+                                <rect key="frame" x="270" y="335" width="60" height="30"/>
+                                <state key="normal" title="网页加载"/>
+                                <connections>
+                                    <action selector="webViewLoading:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gxv-fc-rcd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="xyE-zf-sce" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ATN-4g-lrN"/>
+                            <constraint firstItem="qMX-CM-Gg3" firstAttribute="top" secondItem="xyE-zf-sce" secondAttribute="bottom" constant="20" id="VEV-JF-tIL"/>
+                            <constraint firstItem="qMX-CM-Gg3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XJ6-qN-kD2"/>
                             <constraint firstItem="xyE-zf-sce" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uTM-9C-leW"/>
                         </constraints>
                     </view>

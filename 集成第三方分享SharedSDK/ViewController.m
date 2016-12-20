@@ -22,12 +22,23 @@
 
 
 //#import <UMSocialCore/UMSocialCore.h>
-
+//webview请求
+#define HttpsWebView @"https://m.wonaonao.com/hello.html"
 @interface ViewController ()
-
+@property (nonatomic, strong) UIWebView *webView;
 @end
 
 @implementation ViewController
+
+- (IBAction)webViewLoading:(id)sender {
+ 
+    self.webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:self.webView];
+    
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:HttpsWebView]]];
+    
+}
+
 - (IBAction)startShared:(id)sender {
     [self platShare];
     
@@ -61,25 +72,27 @@
     //创建分享参数
     NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
     
-    NSArray* imageArray = @[[UIImage imageNamed:@"testPage"]];
-    
+//    NSArray* imageArray = @[[UIImage imageNamed:@"testPage"]];
+    NSArray *imageArray = @[@"http://www.mob.com/images/logo_black.png"];
+//    NSArray *imageArray = @[@"http://upload-images.jianshu.io/upload_images/1819746-dd128b903b5167b7.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"];
+
     if (imageArray) {
         
-//        [shareParams SSDKSetupShareParamsByText:@"分享内容"
-//                                         images:imageArray
-//                                            url:[NSURL URLWithString:@"http://www.baidu.com"]
-//                                          title:@"分享标题"
-//                                           type:SSDKContentTypeImage];
+        [shareParams SSDKSetupShareParamsByText:@"我是来自火星的妹妹 http://www.baidu.com"
+                                         images:imageArray
+                                            url:[NSURL URLWithString:@"http://www.qq.com"]
+                                          title:@"分享标题"
+                                           type:SSDKContentTypeImage];
         
-        [shareParams SSDKSetupSinaWeiboShareParamsByText:@"你是来自星星的你，我是天王星 http://www.baidu.com"
-                                                   title:@"分享标题哈哈"
-                                                   image:[UIImage imageNamed:@"testPage1"]
-                                                     url:nil
-                                                latitude:0
-                                               longitude:0
-                                                objectID:nil
-                                                    type:SSDKContentTypeImage];
-        
+//        [shareParams SSDKSetupSinaWeiboShareParamsByText:@"你是来自星星的你，我是天王星 http://www.baidu.com"
+//                                                   title:@"分享标题哈哈"
+//                                                   image:[UIImage imageNamed:@"testPage"]
+//                                                     url:[NSURL URLWithString:@"http://www.qq.com"]
+//                                                latitude:0
+//                                               longitude:0
+//                                                objectID:nil
+//                                                    type:SSDKContentTypeImage];
+//
         
         //进行分享
         [ShareSDK share:SSDKPlatformTypeSinaWeibo

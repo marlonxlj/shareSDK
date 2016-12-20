@@ -493,7 +493,7 @@
 				INFOPLIST_FILE = "集成第三方分享SharedSDK/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.rockhippo.huoban;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.rockhippo.huobanssw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -508,7 +508,7 @@
 				INFOPLIST_FILE = "集成第三方分享SharedSDK/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.rockhippo.huoban;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.rockhippo.huobanssw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
